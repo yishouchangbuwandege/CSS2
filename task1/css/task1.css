@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+}
+.wrap {
+    height: 100vw;
+}
+.sub {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 2.5% 0 0 2.5%;
+    background-color: #fea500;
+    border-radius: 12px;
+}

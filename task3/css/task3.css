@@ -1,0 +1,77 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    background-color: #68CDD5;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 88px;
+    background-color: #22292C;
+}
+.back {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    margin-top: -18px;
+}
+.tittle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -20px;
+    color: #F8F6F5;
+}
+.ciro {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+    background-color: #F8F6F5;
+}
+.more-nav {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    margin-top: -8px;
+}
+.wrap {
+    margin-top: 88px;
+    padding-top: 20px;
+}
+.pre {
+    display: block;
+    padding-left: 35px;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+.content {
+    margin: 0 90px;
+    padding-top: 120px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 180px 100px;
+}
+.left {
+
+}
+.right {
+
+}
+footer p {
+    margin-top: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+

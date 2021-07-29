@@ -1,0 +1,134 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 88px;
+    background-color: #5FC0CD;
+    z-index: 1000;
+}
+header img {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    margin-top: -18px;
+}
+.tittle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -40px;
+    color: #FFFFFF;
+}
+main {
+    margin-top: 88px;
+}
+.banner {
+    position: relative;
+    height: 326px;
+    background: url("../img/banner.png") no-repeat;
+    background-size: cover;
+}
+.pic {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    margin-top: -85px;
+}
+.info {
+    position: absolute;
+    top: 50%;
+    left: 240px;
+    margin-top: -44px;
+}
+.person-info {
+    margin-bottom: 10px;
+}
+.name {
+    font-size: 36px;
+    color: #ffffff;
+}
+.age {
+    font-size: 28px;
+    color: #ffffff;
+}
+.address {
+    position: relative;
+}
+.address-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+}
+.address span {
+    margin-left: 28px;
+    font-size: 24px;
+    color: #ffffff;
+}
+.content-tittle {
+    height: 100px;
+    line-height: 100px;
+    padding-left: 32px;
+    font-size: 32px;
+    border-bottom: solid 1px #E1E5E7;
+}
+.content {
+    height: 100px;
+    line-height: 100px;
+    margin-left: 32px;
+    border-bottom: solid 1px #E1E5E7;
+    font-size: 32px;
+    color: #333;
+}
+.first {
+    padding-left: 24px;
+}
+.left,
+.right {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+.left {
+    padding: 0 24px;
+    border-right: solid 1px #E1E5E7;
+}
+.last {
+    word-break: break-all;
+}
+.last-content {
+    margin: 0 0 140px 0;
+    padding-left: 32px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #ffffff;
+}
+.message {
+    width: 40%;
+    height: 88px;
+    margin: 24px 0;
+    font-size: 34px;
+    color: #5FC0CD;
+    border: solid 1px #5FC0CD;
+}
+.call {
+    width: 40%;
+    height: 88px;
+    margin: 24px 0;
+    font-size: 34px;
+    color: #ffffff;
+    background-color: #5FC0CD;
+    border: solid 1px #5FC0CD;
+}
